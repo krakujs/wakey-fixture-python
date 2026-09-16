@@ -1,0 +1,5 @@
+services:
+  wakey-fixture:
+    autonomy: fix
+    test_command: python -m pytest tests -q
+    immediate_count: 3
